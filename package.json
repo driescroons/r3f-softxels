@@ -1,0 +1,29 @@
+{
+  "name": "r3f-softxels",
+  "version": "1.0.0",
+  "description": "A r3f implementation for softxels",
+  "author": "Dries Croons (@CROEWENS)",
+  "dependencies": {
+    "@react-three/drei": "6.1.2",
+    "@react-three/fiber": "7.0.1",
+    "@react-three/xr": "^3.1.2",
+    "immer": "^9.0.5",
+    "parcel": "^2.0.0-beta.3.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "softxels": "^0.0.25",
+    "three": "^0.130.1",
+    "zustand": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.11",
+    "@types/react-dom": "17.0.7",
+    "@types/three": "^0.130.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "start": "yarn clean && parcel public/index.html",
+    "clean": "rimraf .parcel-cache"
+  }
+}
