@@ -24,6 +24,7 @@
   },
   "scripts": {
     "start": "yarn clean && parcel public/index.html",
+    "build": "parcel build public/index.html",
     "clean": "rimraf .parcel-cache"
   }
 }
